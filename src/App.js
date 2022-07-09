@@ -12,7 +12,7 @@ library.add(faFaceGrinWink);
 function App() {
 
   const [search, setSearch] = useState("");
-  const regex = new RegExp(search);
+  const regex = new RegExp(search, "i");
   
   return (
     <>
