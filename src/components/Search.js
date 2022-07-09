@@ -1,4 +1,3 @@
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import unicorn from "../images/icons8-unicorn-64.png"
 const Search = ({title, title2, search, setSearch}) => {
 
